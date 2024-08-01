@@ -1,13 +1,19 @@
 import React from "react";
+import { Button } from "./UI/Button";
 import logoImg from "../assets/logo.jpg";
-import '../index.css';
+import "../index.css";
 const Header = () => {
-    return <header id="main-header">
-        <div id="title">
-            <img src="logo.jpg" alt="restaurant logo" />
-            <h1>Online cuisine</h1>
-        </div>
-    </header>;
+    return (
+        <header id="main-header">
+            <div id="title">
+                <img src="logo.jpg" alt="restaurant logo" />
+                <h1>Online cuisine</h1>
+            </div>
+            <nav>
+                <Button textOnly>Cart(0)</Button>
+            </nav>
+        </header>
+    );
 };
 
 export default Header;
