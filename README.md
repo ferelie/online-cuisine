@@ -1,2 +1,2 @@
 # online-cuisine
-Online food ordering web-app
+https://ferelie.github.io/online-cuisine
